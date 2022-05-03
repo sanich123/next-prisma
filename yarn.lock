@@ -12,6 +12,23 @@
   "resolved" "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-12.0.10.tgz"
   "version" "12.0.10"
 
+"@prisma/client@^3.13.0":
+  "integrity" "sha512-lnEA2tTyVbO5mS1ehmHJQKBDiKB8shaR6s3azwj3Azfi5XHIfnqmkolLCvUeFYnkDCNVzGXJpUgKwQt/UOOYVQ=="
+  "resolved" "https://registry.npmjs.org/@prisma/client/-/client-3.13.0.tgz"
+  "version" "3.13.0"
+  dependencies:
+    "@prisma/engines-version" "3.13.0-17.efdf9b1183dddfd4258cd181a72125755215ab7b"
+
+"@prisma/engines-version@3.13.0-17.efdf9b1183dddfd4258cd181a72125755215ab7b":
+  "integrity" "sha512-TGp9rvgJIKo8NgvAHSwOosbut9mTA7VC6/rpQI9gh+ySSRjdQFhbGyNUiOcQrlI9Ob2DWeO7y4HEnhdKxYiECg=="
+  "resolved" "https://registry.npmjs.org/@prisma/engines-version/-/engines-version-3.13.0-17.efdf9b1183dddfd4258cd181a72125755215ab7b.tgz"
+  "version" "3.13.0-17.efdf9b1183dddfd4258cd181a72125755215ab7b"
+
+"@prisma/engines@3.13.0-17.efdf9b1183dddfd4258cd181a72125755215ab7b":
+  "integrity" "sha512-Ip9CcCeUocH61eXu4BUGpvl5KleQyhcUVLpWCv+0ZmDv44bFaDpREqjGHHdRupvPN/ugB6gTlD9b9ewdj02yVA=="
+  "resolved" "https://registry.npmjs.org/@prisma/engines/-/engines-3.13.0-17.efdf9b1183dddfd4258cd181a72125755215ab7b.tgz"
+  "version" "3.13.0-17.efdf9b1183dddfd4258cd181a72125755215ab7b"
+
 "@types/debug@^4.0.0":
   "integrity" "sha512-9AonUzyTjXXhEOa0DnqpzZi6VHlqKMswga9EXjpXnnqxwLtdvPPtlO8evrI5D9S6asFRCQ6v+wpiUKbw+vKqyg=="
   "resolved" "https://registry.npmjs.org/@types/debug/-/debug-4.1.7.tgz"
@@ -468,6 +485,14 @@
     "picocolors" "^1.0.0"
     "source-map-js" "^1.0.1"
 
+"prisma@*", "prisma@^3.13.0":
+  "integrity" "sha512-oO1auBnBtieGdiN+57IgsA9Vr7Sy4HkILi1KSaUG4mpKfEbnkTGnLOxAqjLed+K2nsG/GtE1tJBtB7JxN1a78Q=="
+  "resolved" "https://registry.npmjs.org/prisma/-/prisma-3.13.0.tgz"
+  "version" "3.13.0"
+  dependencies:
+    "@prisma/engines" "3.13.0-17.efdf9b1183dddfd4258cd181a72125755215ab7b"
+    "ts-pattern" "^4.0.1"
+
 "prop-types@^15.0.0":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
@@ -589,6 +614,11 @@
   "integrity" "sha512-FnHq5sTMxC0sk957wHDzRnemFnNBvt/gSY99HzK8F7UP5WAbvP70yX5bd7CjEQkN+TjdxwI7g7lJ6podqrG2/w=="
   "resolved" "https://registry.npmjs.org/trough/-/trough-2.0.2.tgz"
   "version" "2.0.2"
+
+"ts-pattern@^4.0.1":
+  "integrity" "sha512-eHqR/7A6fcw05vCOfnL6RwgGJbVi9G/YHTdYdjYmElhDdJ1SMn7pWs+6+YuxygaFwQS/g+cIDlu+UD8IVpur1A=="
+  "resolved" "https://registry.npmjs.org/ts-pattern/-/ts-pattern-4.0.2.tgz"
+  "version" "4.0.2"
 
 "typescript@4.5.5":
   "integrity" "sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA=="
